@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-XXXXXXXX');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <title> GA練習 </title>
+</head>
+
+<body> <!-- <body onload="r()"> -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXXX" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <h1>GA4</h1>
+  <p>
+  <h2><a id="myQry" target="_blank" href="search.html">站內搜尋</a></h2>
+  </p>
+  <p>
+  <h2><a target="_blank" href="event.html">Youtube影片</a></h2>
+  </p>
+  <p>
+  <h2><a target="_blank" href="reg.html">表單提交</a></h2>
+  </p>
+  <p>
+  <h2><a target="_blank" href="ec.html">電子商務</a></h2>
+  </p>
+
+  <hr>
+  <p align="center">
+    <font size="6" color="#FFFFFF"><span style="background-color:#0000FF">昆蟲森林</span></font><br>
+    <img src="image.jpg">
+  </p>
+
+  <div style="height: 200px;">&nbsp;</div>
+  <hr>
+</body>
+
+</html>
+
+<script>
+  function r() {
+    document.getElementById("myQry").click();
+  }
+</script>
